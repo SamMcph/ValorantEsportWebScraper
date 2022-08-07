@@ -49,7 +49,3 @@ class rankings():
         return team_rankings   
 
 
-
-team_rankings = rankings()
-
-print(rankings.asia_pacific_ranking())
