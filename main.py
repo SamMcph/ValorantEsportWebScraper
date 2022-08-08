@@ -44,3 +44,4 @@ player_list = get_player_teams("https://www.vlr.gg/rankings/north-america")
 print(player_list)
 with open('data.json', 'w') as f:
     json.dump(player_list,f,indent=4)
+
